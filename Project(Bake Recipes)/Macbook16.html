@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .content, .right{display: inline-block;  zoom: 1; vertical-align: top; font-size: 15px;}
+
+        .content {width: 50%;}
+        .right {width: 50%; }
+
+        .content {
+            max-width: 500px;
+            margin: auto;
+            
+            }   
+
+        .content textarea {
+            resize: none;
+        }
+
+    
+
+    </style>
+</head>
+
+<body>
+    <form class="content" method="get">
+    
+    <h1>Great Choice</h1> 
+    <h4>Please Complete the Form</h4>
+
+    First Name :<input type="text" name="Name" placeholder="First Name"> <br><br>
+    Last Name : <input type="text" name="LastName" placeholder="LastName"> <br> <br>
+    E-Mail : <input type="mail" name="Mail" placeholder="E-Mail Address" > <br> <br>
+    Phone # : <input type="tel" name="Phone" placeholder="+38344111222" minlength="12""> <br> <br> 
+    Address : <input type="address" name="Addres" placeholder="Address"> <br> <br>
+    City : <input type="text" name="City" placeholder="City"> <br> <br>
+
+    <label for="state">States:</label> 
+    <select name="state">
+        <optgroup label="States"></optgroup>
+        <option value="">Kosova</option>
+        <option value="">Albania</option>
+    </select> <br> <br>
+    Zip Code: <input type="number" name="ZipCode" placeholder="ZipCode"> <br> <br>
+
+    Gender:<input type="radio" name="Gender" value="Male" id="male">
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" value="Female" id="female">
+        <label for="Female">Female</label>
+    <br> <br>
+
+    <p>Description:</p>
+        <textarea name="message" id="message" placeholder="Description" cols="40" rows="5"></textarea> 
+        <br>
+
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+    <br>
+    <br>
+    <br>
+
+    <a href="./index.html">Go to main WebPage</a>
+
+    </form>
+    
+    <div class="right">
+        <img src="./img/mbp16.jpeg" alt="">
+        <h3>Macbook Pro 16 </h3>  <br>
+            <b>10-Core CPU</b> <br>
+            <b>16-Core GPU</b> <br>
+            <b>16GB Unified Memory</b> <br>
+            <b>512GB SSD Storage<sup>1</sup></b>
+            
+            <h2>2500€</h2>
+    </div>
+
+</body>
+</html>
