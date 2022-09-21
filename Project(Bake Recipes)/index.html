@@ -4,20 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bake Recipes</title>
+    <title>Macbook Store</title>
     
 
     <style>
-    container {height: 100%; width:100%; font-size: 0;}
+    .container {height: 100%; width:100%;}
     .left, .middle, .right {display: inline-block; 
         *display: inline; zoom: 1; 
         vertical-align: top; 
         font-size: 15px;}
         
-    .left {width: 33%;}
-    .middle {width: 33%; }
-    .right {width: 32%; }
+    .left {width: 33%;
+    }
+
+    .left img {
+        width: 42px;
+    }
+    .middle {width: 33%; 
+    }
+
+    .middle img {
+        width: 42px;
+    }
+
+    .right {width: 32%; 
+    }
+
+    .right img {
+        width: 42px;
+    }
+
+    .photos{
+        margin: 15px;
+        padding: 5px;
+    }
+    
      </style>
+
 </head>
 <body>
     <table width="900" align="center">
@@ -32,17 +55,17 @@
             </td>
 
             <td align="right">
-                <a href="https://www.apple.com/mac/">Buy on Apple!</a>  
+                <a href="https://www.apple.com/macbook-pro/">Buy on Apple!</a>  
             </td>
             
 
         </table>
             
-        <div margin="10px">
+        <div class="photos">
             
-            <img src="./img/mbp13.jpeg" alt="" width="260">
-            <img src="./img/mbp14.jpeg" alt="" width="265">
-            <img src="./img/mbp16.jpeg" alt="" width="280">
+            <img src="./img/mbp13.jpeg" alt="Macbook Pro 13 inch" width="260">
+            <img src="./img/mbp14.jpeg" alt="Macbook Pro 14 inch" width="265">
+            <img src="./img/mbp16.jpeg" alt="Macbook Pro 16 inch" width="280">
 
         </div>
         
@@ -55,39 +78,53 @@
 
         <h2>Specification</h2>
 
-        <div class="left"><h3>Macbook Pro 13 </h3><br>
-            <b>8-Core CPU</b> <br>
-            <b>10-Core GPU</b> <br>
-            <b>8GB Unified Memory</b> <br>
-            <b>256GB SSD Storage<sup>1</sup></b>
-            
-            <h2>1300€</h2>
+        <div class="left">
+            <ul>
+                <h3>Macbook Pro 13 </h3><br>
+                <img src="./img/m2logo.png" alt="m2logo">
+                <li><b>8-Core CPU</b> </li><br>
+                <li><b>10-Core GPU</b></li> <br>
+                <li><b>8GB Unified Memory</b> </li><br>
+                <li><b>256GB SSD Storage<sup>1</sup></li></b>     
 
-            <a href="./Macbook13.html">
-            <input type="submit" name="order" value="Order" > </a>
-        </div>
-        <div class="middle"><h3>Macbook Pro 14 </h3> <br>
-            <b>8-Core CPU</b> <br>
-            <b>14-Core GPU</b> <br>
-            <b>16GB Unified Memory</b> <br>
-            <b>512GB SSD Storage<sup>1</sup></b>
+                <h2>1300€</h2>
             
-            <h2>2000€</h2>
 
-            <a href="./Macbook14.html">
+                <a href="./Macbook13.html">
                 <input type="submit" name="order" value="Order" > </a>
+             </ul>
+        </div>
+        <div class="middle">
+            <ul>
+                <h3>Macbook Pro 14 </h3> <br>
+                <img src="./img/m1prologo.png" alt="m1prologo">
+                <li><b>8-Core CPU</b></li> <br>
+                <li><b>14-Core GPU</b></li> <br>
+                <li><b>16GB Unified Memory</b> </li><br>
+                <li><b>512GB SSD Storage<sup>1</sup></li></b>
+             
+                <h2>2000€</h2>
+            
+                <a href="./Macbook14.html">
+                <input type="submit" name="order" value="Order" > </a>
+            </ul>
         </div>
 
-        <div class="right"><h3>Macbook Pro 16 </h3>  <br>
-            <b>10-Core CPU</b> <br>
-            <b>16-Core GPU</b> <br>
-            <b>16GB Unified Memory</b> <br>
-            <b>512GB SSD Storage<sup>1</sup></b>
+        <div class="right">
+            <ul>
+                <h3>Macbook Pro 16 </h3>  <br>
+                <img src="./img/m1prologo.png" alt="m1prologo">
+                <li><b>10-Core CPU</b> </li><br>
+                <li><b>16-Core GPU</b></li> <br>
+                <li><b>16GB Unified Memory</b> </li><br>
+                <li><b>512GB SSD Storage<sup>1</sup></li></b>
             
-            <h2>2500€</h2>
+                <h2>2500€</h2>
+        
 
-            <a href="./Macbook16.html">
+                <a href="./Macbook16.html">
                 <input type="submit" name="order" value="Order" > </a>
+            </ul>
         </div>
 
         </div>

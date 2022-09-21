@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Macbook Pro 14</title>
 
     <style>
         .content, .right{
             display: inline-block;
               zoom: 1; 
               vertical-align: top; 
-              font-size: 15px;}
+              font-size: 14px;}
 
             .content {width: 50%;}
             .right {width: 50%; }
@@ -39,12 +39,12 @@
     <h1>Great Choice</h1> 
     <h4>Please Complete the Form</h4>
 
-    First Name :<input type="text" name="Name" placeholder="First Name"> <br><br>
-    Last Name : <input type="text" name="LastName" placeholder="LastName"> <br> <br>
-    E-Mail : <input type="mail" name="Mail" placeholder="E-Mail Address" > <br> <br>
-    Phone # : <input type="tel" name="Phone" placeholder="+38344111222" minlength="12""> <br> <br> 
+    First Name :<input type="text" name="Name" placeholder="First Name" minlength="3" required> <br><br>
+    Last Name : <input type="text" name="LastName" placeholder="LastName" minlength="3" required> <br> <br>
+    E-Mail : <input type="email" name="Email" placeholder="E-Mail Address" required> <br> <br>
+    Phone # : <input type="tel" name="Phone" placeholder="+38344111222" minlength="12" required> <br> <br> 
     Address : <input type="address" name="Addres" placeholder="Address"> <br> <br>
-    City : <input type="text" name="City" placeholder="City"> <br> <br>
+    City : <input type="text" name="City" placeholder="City" required> <br> <br>
 
     <label for="state">States:</label> 
     <select name="state">
@@ -77,14 +77,18 @@
     </form>
 
     <div class="right">
-        <img src="./img/mbp14.jpeg" alt="">
-        <h3>Macbook Pro 14 </h3> <br>
-            <b>8-Core CPU</b> <br>
-            <b>14-Core GPU</b> <br>
-            <b>16GB Unified Memory</b> <br>
-            <b>512GB SSD Storage<sup>1</sup></b>
-            
+        <img src="./img/mbp14.jpeg" alt="Macbook Pro 13 inch">
+        <ul>
+            <h3>Macbook Pro 14 </h3> <br>
+            <li><b>8-Core CPU</b></li> <br>
+            <li><b>14-Core GPU</b></li> <br>
+            <li><b>16GB Unified Memory</b> </li><br>
+            <li><b>512GB SSD Storage<sup>1</sup></li></b>
+         
             <h2>2000€</h2>
+        
+            
+        </ul>
     </div>
     
 </body>
