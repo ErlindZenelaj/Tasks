@@ -7,14 +7,17 @@
     <title>Macbook Pro 16</title>
 
     <style>
-        .content, .right{
-            display: inline-block;
-              zoom: 1; 
-              vertical-align: top; 
-              font-size: 14px;}
+        .left, .middle, .right {display: inline-block; 
+        *display: inline;
+        vertical-align: top; 
+        font-size: 14px;}
 
-        .content {width: 50%;}
-        .right {width: 50%; }
+        .content {width: 30%;}
+        .middle {width: 35%;}
+        .right {
+            width: 30%;
+            
+         }
 
         .content {
             max-width: 500px;
@@ -26,13 +29,16 @@
             resize: none;
         }
 
+        a {
+            text-decoration: none;
+        }
     
 
     </style>
 </head>
 
 <body>
-    <form class="content" method="get">
+    <form class="left" method="get">
     
     <h1>Great Choice</h1> 
     <h4>Please Complete the Form</h4>
@@ -74,7 +80,7 @@
 
     </form>
     
-    <div class="right">
+    <div class="middle">
         <img src="./img/mbp16.jpeg" alt="Macbook Pro 16 inch">
         <ul>
             <h3>Macbook Pro 16 </h3>  <br>
@@ -88,5 +94,10 @@
         </ul>
     </div>
 
+    <div class="right">
+
+        <video src="./vid/mac14.mp4" controls width="400px" height="350px"></video>
+
+    </div>
 </body>
 </html>
