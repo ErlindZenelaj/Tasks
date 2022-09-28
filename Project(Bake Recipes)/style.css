@@ -1,0 +1,61 @@
+.container {height: 100%; width:100%;}
+.left, .middle, .right {display: inline-block; 
+    *display: inline; zoom: 1; 
+    vertical-align: top; 
+    font-size: 15px;
+}
+
+
+
+    
+.left {width: 33%;
+}
+
+.left img {
+    width: 42px;
+    
+}
+.middle {width: 33%; 
+}
+
+.middle img {
+    width: 42px;
+}
+
+.right {width: 32%; 
+}
+
+.right img {
+    width: 42px;
+}
+
+.photos{
+    margin: 25px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+h2 + dt::first-letter{
+    font-size: 25px;
+    border: 1px dotted blue;
+}
+    
+
+
+h2 ~ dt ~ dd{
+        color: blue;
+    }
+
+h2 ~ dt {
+    color: lightsalmon;
+}
+
+
+
