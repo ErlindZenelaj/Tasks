@@ -14,13 +14,13 @@
     
     <h1>Great Choice</h1> 
     <h4>Please Complete the Form</h4>
-
-    First Name :<input type="text" name="Name" placeholder="First Name" minlength="3" required> <br><br>
-    Last Name : <input type="text" name="LastName" placeholder="LastName" minlength="3" required> <br> <br>
-    E-Mail : <input type="email" name="Email" placeholder="E-Mail Address" required> <br> <br>
-    Phone # : <input type="tel" name="Phone" placeholder="+38344111222" minlength="12" required> <br> <br> 
-    Address : <input type="address" name="Addres" placeholder="Address"> <br> <br>
-    City : <input type="text" name="City" placeholder="City" required> <br> <br>
+    
+    <label for="name">First Name :</label><input type="text" name="Name" placeholder="First Name" minlength="3" required> <br><br>
+    <label for="LastName">Last Name :</label><input type="text" name="LastName" placeholder="LastName" minlength="3" required> <br> <br>
+    <label for="Email">E-mail :</label><input type="email" name="Email" placeholder="E-Mail Address" required> <br> <br>
+    <label for="Phone">Phone # :</label><input type="tel" name="Phone" placeholder="+38344111222" minlength="12" required> <br> <br> 
+    <label for="Addres">Address :</label><input type="address" name="Addres" placeholder="Address"> <br> <br>
+    <label for="City">City:</label><input type="text" name="City" placeholder="City" required> <br> <br>
 
     <label for="state">States:</label> 
     <select name="state">
@@ -28,9 +28,9 @@
         <option value="">Kosova</option>
         <option value="">Albania</option>
     </select> <br> <br>
-    Zip Code: <input type="number" name="ZipCode" placeholder="ZipCode"> <br> <br>
+    <label for="ZipCode">Zip Code: </label> <input type="number" name="ZipCode" placeholder="ZipCode"> <br> <br>
 
-    Gender:<input type="radio" name="Gender" value="Male" id="male">
+    <label for="Gender">Gender:</label><input type="radio" name="Gender" value="Male" id="male">
         <label for="Male">Male</label>
         <input type="radio" name="Gender" value="Female" id="female">
         <label for="Female">Female</label>
@@ -53,20 +53,22 @@
     </form>
 
     <div class="middle">
-        <img src="./img/mbp14.jpeg" alt="Macbook Pro 13 inch">
+        <img src="./img/mbp14.jpeg" alt="Macbook Pro 13 inch"> 
         <ul>
+            <br>
             <h3>Macbook Pro 14 </h3> <br>
             <li><b>8-Core CPU</b></li> <br>
             <li><b>14-Core GPU</b></li> <br>
             <li><b>16GB Unified Memory</b> </li><br>
             <li><b>512GB SSD Storage<sup>1</sup></li></b>
-         
+            <br>    
             <h2>2000€</h2>
         
             
         </ul>
     </div>
 
+    
     <div class="right">
 
         <video src="./vid/mac14.mp4" controls width="400px" height="350px"></video>
