@@ -9,6 +9,19 @@ body, html{
     background: linear-gradient(89deg, #00FFFB -90%, #fff 50%, #00FFFB 190%);
 }
 
+@keyframes animate{ 
+    from {
+        border-radius: 50%;
+    }
+
+    to{
+        
+        border-radius: 0%;
+     
+    }
+
+}
+
 
 .left, .middle, .right {display: inline-block; 
     zoom: 1; 
@@ -43,11 +56,29 @@ body, html{
     width: 42px;
 }
 
+h1{
+    font-size: 25px;
+    width: 30px;
+
+    background: aliceblue;
+    transition: width 1s;
+
+}
+
+h1:hover{
+    color: #009dff;
+    width: 200px;
+}
+
+
+
 .photos{
     margin: 25px;
     padding: 10px;
 
     box-shadow: 10px 6px 25px black;
+    animation: animate 2s ease-in-out 0s 2 ;
+
 
 }
 
