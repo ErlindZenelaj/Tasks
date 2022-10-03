@@ -3,7 +3,6 @@
 *{
     font-family: 'Abyssinica SIL', serif;
     
-   
 }
 
 body, html{
@@ -11,9 +10,7 @@ body, html{
 }
 
 
-.container {height: 100%; width:100%;}
 .left, .middle, .right {display: inline-block; 
-    *display: inline;
     zoom: 1; 
     vertical-align: top; 
     font-size: 14px;
@@ -51,8 +48,7 @@ body, html{
     padding: 10px;
 
     box-shadow: 10px 6px 25px black;
-    
-    
+
 }
 
 
