@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Madrid CF</title>
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+</head>
+<body>
+
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+
+
+		<label class="logo">RealMadrid</label>
+		<ul>
+			<li><a class="active" href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Feedback</a></li>
+		</ul>
+	</nav>
+    
+    
+
+    <br> <br>
+
+    <div class="slider">
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>2022</h1>
+				<p>Santiago Bernabeu<br></p>
+			</div>
+			<a href=""><img src="./img/RMStadium.jpeg"></a>
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>UCL</h1>
+				<p>2016<br>
+			</div>
+			<a href=""><img src="./img/CR7.jpeg"></a>
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>UCL</h1>
+				<p>2017<br></p>
+			</div>
+            <a href=""><img src="./img/RMteam.jpeg"></a>
+		</div>
+
+        <div class="myslide fade">
+			<div class="txt">
+				<h1>UCL</h1>
+				<p>2018<br></p>
+			</div>
+            <a href=""><img src="./img/RMStadium.jpg"></a>
+		</div>
+		
+
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+
+
+		</div>
+
+	</div>
+
+
+
+    <script type="text/javascript" src="./jsslider.js"></script>
+
+
+    
+</body>
+</html>
