@@ -18,6 +18,7 @@ nav{
   height: 80px;
   width: 100%;
 }
+
 label.logo{
   color: white;
   font-size: 35px;
@@ -25,6 +26,14 @@ label.logo{
   padding: 0 100px;
   font-weight: bold;
 }
+
+label.logo img{
+    margin-top: -60px;
+    width: 200px;
+    height: 200px;
+    
+  }
+
 nav ul{
   float: right;
   margin-right: 20px;
@@ -68,9 +77,11 @@ a.active,a:hover{
 }
 @media (max-width: 858px){
   .checkbtn{
+    z-index: 1;
     display: block;
   }
   ul{
+    z-index: 1;
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -96,3 +107,44 @@ a.active,a:hover{
     left: 0;
   }
 }
+
+@media (max-width: 500px){
+    .checkbtn{
+      z-index: 1;
+      display: block;
+    }
+
+    label.logo img{
+        margin-top: -140px;
+        width: 200px;
+        height: 200px;
+        
+      }
+
+    ul{
+      z-index: 1;
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
