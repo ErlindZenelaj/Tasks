@@ -229,6 +229,7 @@ a.active,a:hover{
     transform: scale(0.9);
   }
 
+
   @media screen and (max-width: 957px){
     .card{
         height: 500px;
@@ -263,3 +264,39 @@ a.active,a:hover{
         margin: 20px 0;
       }
   }
+
+
+section#history {
+      width: 100%;
+      height: 600px;
+      background-color: aliceblue;
+      
+}
+
+section#history .container{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+
+section#history .container .content {
+  margin-top: -250px;
+
+}
+
+section#history .container .content p{
+  font-size: 17px;
+}
+
+section#history .container .content p strong{
+  font-size: 18px;
+}
+
+
+
+section#history .video iframe{
+    margin: 20px 0px 20px 0px;
+    width: 950px;
+    height: 550px;
+ 
+}
