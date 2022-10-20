@@ -278,12 +278,6 @@ section#history .container{
   grid-template-columns: 4fr 1fr;
 }
 
-
-section#history .container .content {
-  margin-top: -250px;
-
-}
-
 section#history .container .content p{
   font-size: 17px;
 }
@@ -292,11 +286,80 @@ section#history .container .content p strong{
   font-size: 18px;
 }
 
+section#history .img img {
+  width: 150px;
 
+
+}
 
 section#history .video iframe{
     margin: 20px 0px 20px 0px;
     width: 950px;
     height: 550px;
  
+}
+
+section#history-1 {
+  width: 100%;
+  height: 600px;
+  background-color: #c3c3f557;
+  
+}
+
+section#history-1 .container{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+section#history-1 .container .content p{
+  font-size: 17px;
+}
+
+section#history-1 .container .content p strong{
+  font-size: 18px;
+}
+
+section#history-1 .img img {
+  width: 130px;
+
+}
+
+section#history-1 .video iframe{
+  margin: 20px 0px 20px 0px;
+  width: 950px;
+  height: 550px;
+
+}
+
+
+section#history-2 {
+  width: 100%;
+  height: 600px;
+  background-color: #eeeeee;
+  
+}
+
+section#history-2 .container{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+section#history-2 .container .content p{
+  font-size: 17px;
+}
+
+section#history-2 .container .content p strong{
+  font-size: 18px;
+}
+
+section#history-2 .img img {
+  width: 130px;
+
+}
+
+section#history-2 .video iframe{
+  margin: 20px 0px 20px 0px;
+  width: 950px;
+  height: 550px;
+
 }

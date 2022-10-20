@@ -143,7 +143,7 @@ header{
 }
 
 /* 5 */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
 	.myslide{
 		height: 500px;
 	}
