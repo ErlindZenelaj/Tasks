@@ -363,3 +363,607 @@ section#history-2 .video iframe{
   height: 550px;
 
 }
+
+
+@media screen and (max-width: 1200px) {
+  #history{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+  }
+
+  #history .content {
+    font-size: 14px;
+  }
+
+
+  #history .content .img img{
+    width: 100px;
+  }
+  
+
+  .video iframe {
+    max-width: 250%;
+    padding-top: 25.25%;
+    position: relative;
+    width: 100px;
+  }
+  
+   iframe {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+@media screen and (max-width: 957px) {
+
+  section#history {
+    width: 100%;
+    height: 890px;
+
+    
+}
+
+  section#history .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+
+  .video iframe {
+    margin-top: -5%;
+    max-width: 200%;
+    padding: 10.25% 20%;
+    position: relative;
+    width: 100%;
+  }
+  
+   iframe {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  section#history .container .content p strong{
+    font-size: 13px;
+  }
+
+  section#history .container .content p{
+    font-size: 12px;
+  }
+}
+
+
+  @media screen and (max-width: 868px) {
+
+    section#history {
+      width: 100%;
+      height: 930px;
+  
+      
+  }
+    .video iframe {
+      max-width: 120%;
+      padding: 5.25% 2%;
+      position: relative;
+      width: 100%;
+    }
+
+  }
+
+
+
+@media screen and (max-width: 614px) {
+
+
+  section#history {
+    width: 100%;
+    height: 985px;
+
+    
+}
+
+section#history .container{
+  margin: 5px;
+  padding: 5px;
+}
+
+  section#history .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+
+  section#history .img{
+    width: 750px;
+    }
+  
+    section#history .img img{
+    width: 25px;
+    }
+
+  .video iframe {
+    max-width: 67%;
+    padding: 5.25% 10%;
+    position: relative;
+    width: 100%;
+  }
+  
+   iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  section#history .container .content p strong{
+    font-size: 13px;
+  }
+
+  section#history .container .content p{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 484px) {
+
+  section#history {
+    width: 100%;
+    height: 985px;
+    
+}
+
+section#history .container{
+  margin: 2%;
+  padding: 2%;
+}
+
+section .video iframe {
+  max-width: 100%;
+  padding: 5.25% ;
+  position: relative;
+  width: 100%;
+}
+
+ iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+  section#history .img{
+  width: 380px;
+  }
+
+  section#history .img img{
+  width: 35px;
+  }
+
+
+
+  section#history .container .content p strong{
+    font-size: 10px;
+  }
+
+  section#history .container .content p{
+    font-size: 12px;
+  }
+
+ 
+}
+
+
+/* 2017 */
+@media screen and (max-width: 1200px) {
+  #history-1 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+  }
+
+  #history-1 .content {
+    font-size: 14px;
+  }
+
+
+  #history-1 .content .img img{
+    width: 100px;
+  }
+  
+
+  .video iframe {
+    max-width: 250%;
+    padding-top: 25.25%;
+    position: relative;
+    width: 100px;
+  }
+  
+   iframe {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+@media screen and (max-width: 957px) {
+
+  section#history-1 {
+    width: 100%;
+    height: 890px;
+
+    
+}
+
+  section#history-1 .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+
+  .video iframe {
+    margin-top: -5%;
+    max-width: 200%;
+    padding: 10.25% 20%;
+    position: relative;
+    width: 100%;
+  }
+  
+   iframe {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  section#history-1 .container .content p strong{
+    font-size: 13px;
+  }
+
+  section#history-1 .container .content p{
+    font-size: 12px;
+  }
+}
+
+
+  @media screen and (max-width: 868px) {
+
+    section#history-1 {
+      width: 100%;
+      height: 930px;
+  
+      
+  }
+    .video iframe {
+      max-width: 100%;
+      padding: 5.25% 2%;
+      position: relative;
+      width: 100%;
+    }
+
+  }
+
+
+
+@media screen and (max-width: 614px) {
+
+  section#history-1 {
+    width: 100%;
+    height: 985px;
+
+    
+}
+
+section#history-1 .container{
+  margin: 5px;
+  padding: 5px;
+}
+
+section#history-1 .img{
+  width: 750px;
+  }
+
+  section#history-1 .img img{
+  width: 25px;
+  }
+
+  section#history-1 .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+
+  section .video iframe {
+    max-width: 67%;
+    padding: 5.25% ;
+    position: relative;
+    width: 100%;
+  }
+  
+   iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  section#history-1 .container .content p strong{
+    font-size: 13px;
+  }
+
+  section#history-1 .container .content p{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 484px) {
+
+  section#history-1 {
+    width: 100%;
+    height: 985px;
+    
+}
+
+section#history-1 .container{
+  margin: 5px;
+  padding: 5px;
+}
+
+section .video iframe {
+  max-width: 90%;
+  padding: 5.25%;
+  position: relative;
+  width: 100%;
+}
+
+ iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+  section#history-1 .img{
+  width: 420px;
+  }
+
+  section#history-1 .img img{
+  width: 35px;
+  }
+
+
+
+  section#history-1 .container .content p strong{
+    font-size: 10px;
+  }
+
+  section#history-1 .container .content p{
+    font-size: 12px;
+  }
+
+ 
+}
+
+/* 2018 */
+
+@media screen and (max-width: 1200px) {
+  #history-2 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+  }
+
+  #history-2 .content {
+    font-size: 14px;
+  }
+
+
+  #history-2 .content .img img{
+    width: 100px;
+  }
+  
+
+  .video iframe {
+    max-width: 250%;
+    padding-top: 25.25%;
+    position: relative;
+    width: 100px;
+  }
+  
+   iframe {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+@media screen and (max-width: 957px) {
+
+  section#history-2 {
+    width: 100%;
+    height: 890px;
+
+    
+}
+
+  section#history-2 .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+
+  .video iframe {
+    max-width: 200%;
+    padding: 10.25% 20%;
+    position: relative;
+    width: 100%;
+  }
+  
+   iframe {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  section#history-2 .container .content p strong{
+    font-size: 13px;
+  }
+
+  section#history-2 .container .content p{
+    font-size: 12px;
+  }
+}
+
+
+  @media screen and (max-width: 868px) {
+
+    section#history-2 {
+      width: 100%;
+      height: 960px;
+  
+      
+  }
+    .video iframe {
+      max-width: 120%;
+      padding: 5.25% 2%;
+      position: relative;
+      width: 100%;
+    }
+
+  }
+
+
+
+@media screen and (max-width: 614px) {
+
+
+  section#history-2 {
+    width: 100%;
+    height: 985px;
+
+
+}
+
+section#history-2 .container{
+  margin: 5px;
+  padding: 5px;
+}
+
+  section#history-2 .img{
+  width: 850px;
+  }
+
+  section#history-2 .img img{
+  width: 20px;
+  }
+
+  section#history-2 .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+
+  section .video iframe {
+    max-width: 50%;
+    padding: 3.25% ;
+    position: relative;
+    width: 100%;
+  }
+  
+   iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  section#history-2 .container .content p strong{
+    font-size: 10px;
+  }
+
+  section#history-2 .container .content p{
+    font-size: 11px;
+  }
+
+  @media screen and (max-width: 484px) {
+
+    section#history-2 {
+      width: 100%;
+      height: 985px;
+      
+  }
+
+  section#history-2 .container{
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  section .video iframe {
+    max-width: 90%;
+    padding: 5.25%;
+    position: relative;
+    width: 100%;
+  }
+  
+   iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+    section#history-2 .img{
+    width: 420px;
+    }
+  
+    section#history-2 .img img{
+    width: 30px;
+    }
+  
+  
+  
+    section#history-2 .container .content p strong{
+      font-size: 10px;
+    }
+  
+    section#history-2 .container .content p{
+      font-size: 12px;
+    }
+
+  }
+}
