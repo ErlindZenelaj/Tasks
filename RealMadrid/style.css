@@ -83,7 +83,7 @@ a.active,a:hover{
     z-index: 1;
     display: block;
   }
-  ul{
+  nav ul{
     z-index: 1;
     position: fixed;
     width: 100%;
@@ -125,7 +125,7 @@ a.active,a:hover{
         
       }
 
-    ul{
+    nav ul{
       z-index: 1;
       position: fixed;
       width: 100%;
@@ -975,7 +975,8 @@ section#history-2 .container{
 
 section#gallery {
   padding: 60px 0px;
-  /* background-color: #0c0b09; */
+  
+  /* background-color: #adf5fa; */
 }
 
 section#gallery .gallery {
@@ -1019,4 +1020,178 @@ hgroup  {
   }
 
 
+}
+
+
+
+
+
+section#footer .footer {
+  display: block;
+  width: 100%;
+  position: relative;
+  background: #55ACEE;
+  padding: 50px 25px 50px 25px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 10%;
+}
+
+section#footer .footer .inner {
+  display: flex;
+  align-items: self-start;
+  justify-content: space-between;
+  column-gap: 20px;
+  row-gap: 30px;
+  max-width: 1180px;
+  margin: auto;
+  text-align: left;
+}
+section#footer .main-logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+section#footer .main-logo .logo {
+  display: inline-block;
+  width: 180px;
+
+}
+section#footer .main-logo .logo > img {
+  display: block;
+  width: 100%;
+  min-width: 100px;
+}
+section#footer .logo-info {
+  text-align: left;
+  line-height: 20px;
+}
+section#footer .text {
+  font-size: 17px;
+  line-height: 17px;
+  color: #fff;
+  letter-spacing: .18em;
+  font-weight: 600;
+}
+
+section#footer .copyright {
+  color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+}
+section#footer .footer .column {
+  width: 100%;
+  font-size: 14px;
+  text-align: left;
+}
+
+section#footer .illustration {
+  left: 8%;
+  position: absolute;
+  top: -20px;
+}
+section#footer .footer a.button {
+  display: inline-flex;
+  position: relative;
+  height: 60px;
+  margin-right: 20px;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  background: #fff;
+  color: white;
+  border-radius: 36px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 30px;
+  text-decoration: unset;
+  box-shadow: 0px 24px 74px rgb(60 0 189 / 20%);
+}
+section#footer .section-title {
+  font-size: 44px;
+  font-weight: 700;
+  color: #fff;
+}
+section#footer .section-sub-heading {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+section#footer .section-sub-heading span {
+  opacity: 0.6;
+}
+section#footer .section-sub-heading strong {
+  font-weight: 600;
+}
+
+section#footer .column-title{
+color: white;
+}
+
+.fa {
+padding: 20px;
+font-size: 35px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+}
+
+.fa:hover {
+opacity: 0.7;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-instagram {
+background: #3B5998;
+color: white;
+}
+
+.fa-youtube{
+  background: white;
+  color: red;
+}
+
+@media only screen and (max-width: 950px) and (min-width: 200px) {
+  section#footer body {
+      height: 200vh;
+      overflow-y: scroll;
+      overflow-x: hidden;
+  }
+  section#footer .footer .inner {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  .footer{
+      width: 100%;
+      display: block;
+      padding: 30px 20px;
+      margin: 30px 0;
+  }
+  .section-title {
+      font-size: 30px;
+  }
+  .section-sub-heading {
+      font-size: 18px;
+  }
+  footer.footer {
+      padding-top: 0;
+  }
+  section#footer a.button {
+      height: 50px;
+      margin-top: 10px;
+  }
+  .column .is-logo {
+      order: 4;
+  }
+
+  
 }
