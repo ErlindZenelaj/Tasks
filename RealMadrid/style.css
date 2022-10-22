@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins&display=swap');
 
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
 * {
   padding: 0;
   margin: 0;
@@ -320,7 +322,7 @@ section#history-1 .container .content p strong{
 }
 
 section#history-1 .img img {
-  width: 130px;
+  width: 110px;
 
 }
 
@@ -353,7 +355,7 @@ section#history-2 .container .content p strong{
 }
 
 section#history-2 .img img {
-  width: 130px;
+  width: 110px;
 
 }
 
@@ -966,4 +968,55 @@ section#history-2 .container{
     }
 
   }
+}
+
+
+/* Gallery */
+
+section#gallery {
+  padding: 60px 0px;
+  /* background-color: #0c0b09; */
+}
+
+section#gallery .gallery {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+section#gallery .gallery img {
+  display: block;
+  width: 100%;
+  border-right: 2px solid #454035;
+  border-bottom: 2px solid #454035;
+}
+
+
+hgroup  {
+  color: #CDA460;
+  padding: 6px 0px;
+
+  border-bottom: 1px solid #CDA460 ;
+}
+
+@media screen and (max-width: 1200px){
+
+  section#gallery .gallery {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+}
+
+@media screen and (max-width: 614px){
+
+  section#gallery .gallery {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+
 }
