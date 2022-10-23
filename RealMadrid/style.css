@@ -1030,7 +1030,7 @@ section#footer .footer {
   display: block;
   width: 100%;
   position: relative;
-  background: #55ACEE;
+  background: #0082e6;
   padding: 50px 25px 50px 25px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -1054,7 +1054,7 @@ section#footer .main-logo {
 }
 section#footer .main-logo .logo {
   display: inline-block;
-  width: 180px;
+  width: 200px;
 
 }
 section#footer .main-logo .logo > img {
@@ -1099,7 +1099,7 @@ section#footer .footer a.button {
   align-items: center;
   overflow: hidden;
   background: #fff;
-  color: white;
+  color: rgb(255, 255, 255);
   border-radius: 36px;
   font-size: 16px;
   font-weight: 700;
@@ -1124,9 +1124,15 @@ section#footer .section-sub-heading strong {
   font-weight: 600;
 }
 
-section#footer .column-title{
+.column-title {
 color: white;
+font-size: 18px;
 }
+
+.is-nav li a{
+  color: rgb(200, 239, 251);
+  }
+
 
 .fa {
 padding: 20px;
@@ -1192,6 +1198,11 @@ color: white;
   .column .is-logo {
       order: 4;
   }
+
+  .column-title {
+    color: white;
+    font-size: 14px;
+    }
 
   
 }
