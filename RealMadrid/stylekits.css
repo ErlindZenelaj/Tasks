@@ -13,6 +13,7 @@
 	align-items: stretch;
 	align-content: space-between;
     margin-top: 10%;
+     
   
 }
 
@@ -20,37 +21,30 @@
 
 .cards-d .buttons {
     text-align: center;
+    width: 100%;
 }
 
 .cards-d .size{
     margin: 5px;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid blue;
 }
 
 
 .cards-d img{
-  width: 300px;
-  height: 340px;
+  width: 280px;
+  height: 320px;
   /* border: 1px solid blue; */
   padding: 5px;
 }
 
-.button-xsmall {
-    font-size: 10%;
-}
 
 .button-small {
-    font-size: 85%;
+    font-size: 15%;
 }
 
-.button-large {
-    font-size: 110%;
-}
 
-.button-xlarge {
-    font-size: 125%;
-}
+
 
 
 .cards-d a{
@@ -95,34 +89,52 @@
     border: 1px solid blue;
 }
 
+.cards-d .buttons {
+    text-align: center;
+}
+
+.cards-d .size{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
 
 .cards-d img{
-  width: 280px;
-  height: 340px;
-  /* border: 1px solid blue; */
-  padding: 5px;
-}
+    width: 220px;
+    height: 280px;
+    /* border: 1px solid blue; */
+    padding: 2px;
+  }
+  
 
-.button-xsmall {
-    font-size: 10%;
-}
+
 
 .button-small {
     font-size: 85%;
 }
 
-.button-large {
-    font-size: 110%;
+.buttons .pure-button{
+    font-size: 75%;
 }
 
-.button-xlarge {
-    font-size: 125%;
-}
+
 
   .cards-d a h1{
     color: black;
     text-align: center;
     font-size: 15px;
+  }
+
+  .cards-d a p{
+    text-align: center;
+    color: blue;
+    font-size: 18px;
+  }
+  
+  
+  .cards-d .buttons .special:hover{
+      background-color: #1b9bff;
   }
 
 }
@@ -141,12 +153,31 @@
     margin: 0px;
   }
 
-  .cards-d img{
-    width: 190px;
-    height: 240px;
+  .cards-d .size{
+    margin: 5px;
+    padding: 15px;
     border: 1px solid blue;
-    padding: 5px;
-  }
+}
+
+    .cards-d .buttons {
+    text-align: center;
+    }
+
+    .cards-d .size{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    }
+
+    .cards-d img{
+        width: 180px;
+        height: 250px;
+        /* border: 1px solid blue; */
+        padding: 2px;
+      }
+      
+
+
 
   .cards-d a h1{
     color: black;
@@ -173,10 +204,22 @@
   
 }
 
+
+.cards-d .buttons {
+    text-align: center;
+    width: 100%;
+}
+
+.cards-d .size{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
 .cards-d img{
   width: 260px;
   height: 360px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   padding: 5px;
 }
 
