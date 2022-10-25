@@ -6,13 +6,13 @@
 
 
 .cards-d {
-    display: flex;
+  display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	align-items: stretch;
 	align-content: space-between;
-    margin-top: 10%;
+  margin-top: 10%;
      
   
 }
@@ -27,7 +27,8 @@
 .cards-d .size{
     margin: 5px;
     padding: 10px;
-    border: 1px solid blue;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+
 }
 
 
@@ -86,18 +87,14 @@
   .cards-d .size{
     margin: 5px;
     padding: 15px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .cards-d .buttons {
     text-align: center;
 }
 
-.cards-d .size{
-    margin: 5px;
-    padding: 10px;
-    border: 1px solid blue;
-}
 
 
 .cards-d img{
@@ -107,8 +104,6 @@
     padding: 2px;
   }
   
-
-
 
 .button-small {
     font-size: 85%;
@@ -156,18 +151,14 @@
   .cards-d .size{
     margin: 5px;
     padding: 15px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
     .cards-d .buttons {
     text-align: center;
     }
 
-    .cards-d .size{
-    margin: 5px;
-    padding: 10px;
-    border: 1px solid blue;
-    }
 
     .cards-d img{
         width: 180px;
@@ -213,7 +204,8 @@
 .cards-d .size{
     margin: 5px;
     padding: 10px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .cards-d img{
