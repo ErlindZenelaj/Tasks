@@ -167,7 +167,7 @@ a.active,a:hover{
     height: 280px;
     max-width: 350px;
     margin: 0 20px;
-    transition: 0.4s;
+    transition: .4s;
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
